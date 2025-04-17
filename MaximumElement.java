@@ -1,3 +1,4 @@
+//1.	Write a function that find the maximum element in a given array of integers.
 public class MaximumElement {
     public static void main(String[] args) {
         int arr[] = { 1, 3, -1, 5, 4, 6 };
