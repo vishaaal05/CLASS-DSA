@@ -19,16 +19,24 @@ public class Collection {
     }
 
     static void LinkedListExample(){
-        List<Integer> li = new LinkedList<>();
+        LinkedList<Integer> li = new LinkedList<>();
 
         li.add(1);
         li.add(2);
+      
         li.add(1);
+        li.addLast(5);
+        li.addFirst(0);
+
+        li.removeFirst();
+ 
 
         System.out.println(li.contains(5));
         System.out.println(li.indexOf(1));
         System.out.println(li.get(1));
         System.out.println(li);
+        System.out.println(       li.peekFirst());
+        System.out.println(li.peekLast());
 
     }
     public static void main(String[] args) {
